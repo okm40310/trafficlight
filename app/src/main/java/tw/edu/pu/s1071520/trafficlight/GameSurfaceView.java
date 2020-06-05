@@ -16,6 +16,7 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
     Bitmap Road, Boy;
 
     int GreenLightSec, YellowLightSec, RedLightSec; //各燈號秒數
+
     Boolean BoyMoving = false; //小男孩是否移動
     int BGmoveX = 0; //背景圖片往左捲動像素
 
